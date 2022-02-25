@@ -4,11 +4,13 @@
 package com.example.demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * @author sophi
  *
  */
+@Component
 public class Iphone {
 	
 	private String camera;
